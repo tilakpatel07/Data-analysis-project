@@ -54,3 +54,43 @@ Data Engineers prioritize cloud platforms like AWS (43%), Azure (32%), and Spark
 Data Scientists value R (44%), along with Tableau and SAS (24% each), for statistical analysis and data visualization.
 
 This analysis underlines the significance of core programming skills like Python and SQL while emphasizing the need for role-specific expertise. Aspiring professionals can tailor their skillsets based on the demand for their targeted job roles.
+
+
+## 2. How are in-demand skills Trending for Data Analysts ? 
+
+### Visualize Data
+```python
+sns.lineplot(data=df_plot, dashes=False, palette='tab10', legend=False)
+plt.title("Trending skills for Data Analyst in the United States")
+plt.xlabel('2023')
+plt.ylabel('Likelihood in Job posting')
+plt.ylim(0, 70)
+sns.despine()
+
+ax = plt.gca()
+ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, _: f'{int(y)}%'))
+
+for i in range(5):
+    plt.text(11.2, df_plot.iloc[-1, i], df_plot.columns[i])
+plt.show()
+
+```
+### Results 
+![Visulization For the above given code](images/skill_trend.png)
+
+
+### Insights 
+
+### Conclusion  
+- **SQL**: The most essential and in-demand skill, dominating job postings.  
+- **Excel**: Widely used but slightly declining, signaling a gradual shift to advanced tools.  
+- **Python**: Gaining steady traction, crucial for advanced analytics and automation.  
+- **Tableau**: A stable visualization tool, vital for business intelligence.  
+- **Power BI**: Niche but growing in popularity, especially in certain industries.  
+
+### Future Predictions  
+- **Focus on SQL and Python**: Core skills that will remain highly valuable.  
+- **Visualization Skills**: Master Tableau and Power BI for effective data storytelling.  
+- **Cloud Technologies**: Learn tools like AWS Redshift and Snowflake for future-ready analytics.  
+- **Real-Time Analytics**: Explore Apache Kafka for real-time data processing.  
+- **Data Storytelling**: Build communication skills to present insights effectively.
