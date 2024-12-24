@@ -94,3 +94,33 @@ plt.show()
 - **Cloud Technologies**: Learn tools like AWS Redshift and Snowflake for future-ready analytics.  
 - **Real-Time Analytics**: Explore Apache Kafka for real-time data processing.  
 - **Data Storytelling**: Build communication skills to present insights effectively.
+
+
+## 3. Salary comparison between the top 6 data roles. 
+
+### Visualize Data
+```python
+sns.boxplot(data=df_US_top6, x='salary_year_avg', y='job_title_short', order=order)
+sns.set_theme(style='ticks')
+
+plt.title('Salary distribution for the top 6 data roles')
+plt.ylabel('')
+plt.xlabel('Yearly salary ($USD)')
+plt.xlim(0, 600000)
+ax = plt.gca()
+ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, __: f'${int(x/1000)}k'))
+plt.show()
+
+
+
+```
+### Results 
+![Visulization For the above given code](images/salary_analysis.png)
+
+
+### Insights 
+
+- Senior roles in data science and engineering are more lucrative and show higher earning potential, especially for individuals with specialized skills or experience.
+- Roles such as Data Scientist and Data Engineer provide competitive salaries with some overlapping earning potentials, making them attractive for professionals in the field.
+- The wide range of salaries and significant outliers suggest that factors like location, industry, and individual experience greatly impact salary levels.
+- Entry-level roles, such as Data Analyst, have a more constrained salary range, but there is clear upward mobility in salary with seniority and experience.
