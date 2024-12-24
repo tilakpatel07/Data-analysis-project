@@ -36,3 +36,21 @@ plt.show()
 ```
 
 ### Results 
+![Visulization For the above given code](images/skill_count.png)
+
+### Insights 
+SQL Dominance Across Roles:
+
+- SQL is the most demanded skill for all three roles, with the highest likelihood for Data Engineers (68%) and Data Analysts (51%).
+  
+Python’s Prominence:
+
+- Python is a critical skill for Data Scientists (72%) and Data Engineers (65%), signifying its importance in advanced analytics and engineering roles.
+  
+Specialized Tools and Platforms:
+
+- For Data Analysts, tools like Excel (41%), Tableau (28%), and SAS (19%) highlight the focus on reporting and visualization.
+Data Engineers prioritize cloud platforms like AWS (43%), Azure (32%), and Spark (32%) for managing large-scale data systems.
+Data Scientists value R (44%), along with Tableau and SAS (24% each), for statistical analysis and data visualization.
+
+This analysis underlines the significance of core programming skills like Python and SQL while emphasizing the need for role-specific expertise. Aspiring professionals can tailor their skillsets based on the demand for their targeted job roles.
