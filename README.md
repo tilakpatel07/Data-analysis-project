@@ -124,3 +124,38 @@ plt.show()
 - Roles such as Data Scientist and Data Engineer provide competitive salaries with some overlapping earning potentials, making them attractive for professionals in the field.
 - The wide range of salaries and significant outliers suggest that factors like location, industry, and individual experience greatly impact salary levels.
 - Entry-level roles, such as Data Analyst, have a more constrained salary range, but there is clear upward mobility in salary with seniority and experience.
+
+
+## 3. Highest paid and most demanded skills for Data Analysts. 
+
+### Visualize Data
+```python
+
+fig, ax = plt.subplots(2, 1)
+
+sns.set_theme(style='ticks')
+sns.barplot(data=df_DA_US_pay, x='median', y=df_DA_US_pay.index, ax=ax[0],hue='median', palette='dark:b_r', legend=False)
+ax[0].set_title('Top 10 highest paying skills for Data Analysts in the US')
+ax[0].set_xlabel('')
+ax[0].set_ylabel('')
+
+sns.barplot(data=df_DA_US_count, x='median', y=df_DA_US_count.index, ax=ax[1], hue='median', palette='light:b', legend=False)
+ax[1].set_title('Top 10 most in demand skills for Data Analysts in the US')
+ax[1].set_xlabel('')
+ax[1].set_ylabel('')
+
+ax[0].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'${int(x/1000)}K'))
+ax[1].xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'${int(x/1000)}K'))
+ax[1].set_xlim(ax[0].get_xlim())
+fig.tight_layout()
+
+```
+### Results 
+![Visulization For the above given code](images/salary_comparison.png)
+
+
+### Insights 
+
+- Technical Proficiency is Key: The graph strongly emphasizes the importance of technical skills in the data analyst field. Both the highest-paying and most in-demand skills are heavily technical, requiring knowledge of programming languages (Python, R, SQL), data management tools (dplyr, SQL Server), and visualization tools (Tableau).
+ Cloud Computing is Valuable: Skills related to cloud infrastructure and development, such as those associated with Bitbucket and GitLab, are highly valued and well-compensated.
+ Emerging Technologies are in Demand: Blockchain-related skills, like Solidity, are in high demand and offer significant earning potential, indicating the growing importance of this field in the data analysis landscape.
