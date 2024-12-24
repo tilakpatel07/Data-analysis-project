@@ -157,5 +157,5 @@ fig.tight_layout()
 ### Insights 
 
 - Technical Proficiency is Key: The graph strongly emphasizes the importance of technical skills in the data analyst field. Both the highest-paying and most in-demand skills are heavily technical, requiring knowledge of programming languages (Python, R, SQL), data management tools (dplyr, SQL Server), and visualization tools (Tableau).
- Cloud Computing is Valuable: Skills related to cloud infrastructure and development, such as those associated with Bitbucket and GitLab, are highly valued and well-compensated.
- Emerging Technologies are in Demand: Blockchain-related skills, like Solidity, are in high demand and offer significant earning potential, indicating the growing importance of this field in the data analysis landscape.
+- Cloud Computing is Valuable: Skills related to cloud infrastructure and development, such as those associated with Bitbucket and GitLab, are highly valued and well-compensated.
+- Emerging Technologies are in Demand: Blockchain-related skills, like Solidity, are in high demand and offer significant earning potential, indicating the growing importance of this field in the data analysis landscape.
