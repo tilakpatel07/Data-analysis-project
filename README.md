@@ -244,8 +244,11 @@ plt.show()
 
 - Data Extraction and Transformation:Extracting the data in the specific format required for visualization proved to be quite challenging. The original DataFrame often needed to be manipulated in multiple ways, such as filtering, grouping, pivoting, or aggregating, to get the desired subset of data for plotting.
       -This required me to:
+  
           - Understand the structure of the DataFrame thoroughly.
+  
           - Learn and apply various Pandas functions like groupby() and pivot().
+  
           - Troubleshoot errors and refine the transformations to ensure the data was accurate and suitable for visualization.
 
 - Debugging Errors:As a beginner, I faced several errors in my code, especially when chaining multiple Pandas operations. Understanding error messages and debugging step-by-step helped me gain confidence in troubleshooting and solidified my understanding of Python and Pandas.
