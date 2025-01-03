@@ -132,7 +132,7 @@ plt.show()
 - Entry-level roles, such as Data Analyst, have a more constrained salary range, but there is clear upward mobility in salary with seniority and experience.
 
 
-### Highest paid and most demanded skills for Data Analysts. 
+## 4. Highest paid and most demanded skills for Data Analysts. 
 
 ### Visualize Data
 ```python
@@ -168,7 +168,7 @@ fig.tight_layout()
 
 
 
-## 4. What is the most optimal skills for Data Analysts. 
+## 5. What is the most optimal skills for Data Analysts. 
 
 ### Visualize Data
 ```python
