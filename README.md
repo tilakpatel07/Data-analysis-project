@@ -1,5 +1,5 @@
 # Overview
-welcome to my analysis of job market. This project was created to navigate and understand the job market more effeciently. It delves into top-paying and high-demand skills to help find job opportunities for Data Analyst.
+Welcome to my analysis of job market. This project was created to navigate and understand the job market more effeciently. It delves into top-paying and high-demand skills to help find job opportunities for Data Analyst.
 
 # Tools I used 
 - Python: I helped me with almost everything and the libraries that I used are:
