@@ -249,7 +249,7 @@ plt.show()
   
           - Learn and apply various Pandas functions like groupby() and pivot().
   
-          - Troubleshoot errors and refine the transformations to ensure the data was accurate and suitable for visualization.
+          - Troubleshoot errors and refine the transformations so data was accurate and suitable for visualization.
 
 - Debugging Errors:As a beginner, I faced several errors in my code, especially when chaining multiple Pandas operations. Understanding error messages and debugging step-by-step helped me gain confidence in troubleshooting and solidified my understanding of Python and Pandas.
 
